@@ -17,58 +17,10 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
-#display-image {
+.image-container img {
     max-width: 100%;
     max-height: 100%;
-    width: auto;
-    height: auto;
     object-fit: contain;
-    display: none;
-}
-
-#display-image.visible {
-    display: block;
-}
-
-.controls {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    z-index: 10;
-}
-
-.controls.hidden {
-    display: none;
-}
-
-#image-input {
-    display: none;
-}
-
-.upload-btn {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #4a90d9;
-    color: #fff;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.upload-btn:hover {
-    background-color: #357abd;
-}
-
-.hint {
-    color: #888;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin-top: 15px;
 }
